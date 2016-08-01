@@ -1,3 +1,4 @@
+import org.apache.spark.SparkContext
 import org.apache.spark.sql.SparkSession
 
 
@@ -44,4 +45,22 @@ class StructuredStreamDemo {
     .start()
 
   query.awaitTermination()
+
+  //scala wordcount
+  val words = ""
+  words.split(" ")
+    .groupBy(word => word)
+    .mapValues(value => value.size)
+
+  //rdd wordcount
+  val sc = new SparkContext()
+  val input = sc.textFile("data/all-shakespeare.txt")
+  val lines = input.map(line => line.toLowerCase)
+  val wordCount = lines
+      .flatMap(line => line.split(" "))
+      .groupBy(word => word)
+      .mapValues(value => value.size)
+
+
+
 }

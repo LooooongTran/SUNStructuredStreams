@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ea384e0-a15d-4d70-8ca6-2e7df763d8ad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slides.key" afterPath="$PROJECT_DIR$/Slides.key" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/StructuredStreamDemo.scala" afterPath="$PROJECT_DIR$/src/main/scala/StructuredStreamDemo.scala" />
     </list>
     <ignored path="SUNStructuredStreams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +43,11 @@
       <file leaf-file-name="StructuredStreamDemo.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/StructuredStreamDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="329">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
               <folding>
-                <element signature="e#433#472#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#470#509#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,8 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/StructuredStreamDemo.scala" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/StructuredStreamDemo.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/scala/StructuredStreamDemo.scala" />
       </list>
     </option>
   </component>
@@ -124,8 +126,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="159" />
+    <option name="x" value="577" />
+    <option name="y" value="154" />
     <option name="width" value="1366" />
     <option name="height" value="731" />
   </component>
@@ -594,7 +596,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="159" width="1366" height="731" extended-state="0" />
+    <frame x="577" y="154" width="1366" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -786,10 +788,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/StructuredStreamDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="329">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
           <folding>
-            <element signature="e#433#472#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#470#509#0" expanded="true" />
           </folding>
         </state>
       </provider>
