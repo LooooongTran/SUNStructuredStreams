@@ -87,7 +87,7 @@ class StructuredStreamDemo {
   //rdd wordcount
 
  /* val sc = new SparkContext()
-  val words = sc.textFile("all-shakespeare.txt")
+  val words = sc.textFile("data/all-shakespeare.txt")
 
   val wordCount = words.map(line => line.toLowerCase)
       .flatMap(line => line.split(" "))
@@ -114,7 +114,7 @@ class StructuredStreamDemo {
   wordCountSQL.show*/
 
   //DStream word count
-/*  import org.apache.spark.{SparkConf, SparkContext}
+  import org.apache.spark.{SparkConf, SparkContext}
   import org.apache.spark.streaming.dstream.DStream
   import org.apache.spark.streaming.{Seconds, StreamingContext}
 
@@ -131,6 +131,9 @@ class StructuredStreamDemo {
                               invReduceFunc = _ - _,
                               slideDuration = Seconds(10),
                               windowDuration = Seconds(30))
+
+
+
                             .transform(_.sortBy(_._2, ascending = false))
 
   wordCount.foreachRDD(x => x.foreach(y => println(s"this is inside an RDD $y")))
@@ -139,5 +142,5 @@ class StructuredStreamDemo {
   ssc.awaitTermination()
 
   ssc.stop(stopSparkContext = true)
-*/
+
 }
