@@ -1,5 +1,6 @@
 import org.apache.spark.{SparkConf, SparkContext, streaming}
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.types.StructType
 
 
 class StructuredStreamDemo {
@@ -77,7 +78,7 @@ class StructuredStreamDemo {
   query.awaitTermination()*/
 
   //scala wordcount
- /* val words = ""
+ /* val words = "insert some lorem ipsom"
   val wordCount = words.toLowerCase
     .split(" ")
     .groupBy(word => word)
@@ -114,7 +115,7 @@ class StructuredStreamDemo {
   wordCountSQL.show*/
 
   //DStream word count
-  import org.apache.spark.{SparkConf, SparkContext}
+  /*import org.apache.spark.{SparkConf, SparkContext}
   import org.apache.spark.streaming.dstream.DStream
   import org.apache.spark.streaming.{Seconds, StreamingContext}
 
@@ -141,6 +142,6 @@ class StructuredStreamDemo {
   ssc.start()
   ssc.awaitTermination()
 
-  ssc.stop(stopSparkContext = true)
+  ssc.stop(stopSparkContext = true)*/
 
 }
